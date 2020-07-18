@@ -1,0 +1,92 @@
+* {
+    box-sizing: content-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    width: 70%;
+    padding: 0;
+    margin: 2% 15%;
+    border: 1px solid #ffffff;
+}
+
+#top_div {
+    background-image: url(/static/bg_img.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 10rem;
+    width: 100%;
+}
+
+.top_div_text {
+    height: 100%;
+    width: 70%;
+    color: #ffffff;
+    padding: 3%;
+}
+
+#h_3 {
+    width: 40%;
+}
+
+#p_1 {
+    width: 60%;
+}
+
+.top_div_img {
+    height: 100%;
+    width: 22%;
+}
+
+.top_div_img img{
+    width: 70%;
+    height: 90%;
+    padding-left:0;
+    margin-left: -2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    /*padding: 5% 10%;*/
+    clear: right;
+}
+
+form {
+    clear: right;
+}
+
+.form-group {
+    width: 100%;
+}
+
+label {
+    clear: both;
+}
+
+#link {
+    width: 60%;
+}
+
+#mp3_btn {
+    color: #ffffff;
+    background: #002C54;
+}
+
+footer {
+    background-color: #002C54;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: #818181;
+}
